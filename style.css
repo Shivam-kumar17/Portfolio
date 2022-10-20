@@ -330,22 +330,58 @@ footer p:nth-child(2){
 
 @media (max-width: 1200px) {
 	.hero{
-		max-width: 1140px;
+		width: 1413px;
+	}
+	.about{
+		width: 138vw;
+	}
+	.service{
+		width: 138vw;
+	}
+	.contact-me{
+		width: 138vw;
+	}
+	footer{
+		width: 138vw;
 	}
 }
 @media (max-width: 992px) {
 	.hero{
-		max-width: 960px;
+		width: 138vw;
+	}
+	.about{
+		width: 138vw;
+	}
+	.service{
+		width: 138vw;
+	}
+	.contact-me{
+		width: 138vw;
+	}
+	footer{
+		width: 138vw;
 	}
 }
 @media (max-width: 768px) {
 	.hero{
-		max-width: 720px;
+		width: 148vw;
+	}
+	.about{
+		width: 148vw;
+	}
+	.service{
+		width: 148vw;
+	}
+	.contact-me{
+		width: 148vw;
+	}
+	footer{
+		width: 148vw;
 	}
 }
 @media (max-width: 576px) {
 	.hero{
-		max-width: 540px;
+		/* max-width: 540px; */
 		width: 120vw;
 	}
 	.ourService{
@@ -390,5 +426,8 @@ footer p:nth-child(2){
 	}
 	.about-text h2{
 		padding-top: 40px;
+	}
+	.about img {
+		width: 450px;
 	}
 }
