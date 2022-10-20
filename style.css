@@ -7,8 +7,7 @@
 .hero{
 	height: 100vh;
 	width: 100vw;
-	background-image: url(http://static.tumblr.com/0e099a452076118ba0341aed74452d68/uni6xe8/pm9oqc6eg/tumblr_static_c9jshv01t7kg88wkk8w840o0w.jpg);
-	/* background-image: url(https://pixabay.com/get/g676e5efedfb5f7309b5aac756aba46efd3484a7995559c0a44adb27b694af0f049ba51a80eec2ec3b68258a689d8db39.jpg); */
+	background-image: url(https://pixabay.com/get/g676e5efedfb5f7309b5aac756aba46efd3484a7995559c0a44adb27b694af0f049ba51a80eec2ec3b68258a689d8db39.jpg);
 	background-size: cover;
 	background-position: center;
 }
