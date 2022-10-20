@@ -6,7 +6,7 @@
 }
 .hero{
 	height: 100vh;
-	width: 100vw;
+	width: 105vw;
 	background-image: url(https://pixabay.com/get/g8d0a9fac92077231067beddf989b32c22cbff3d9a26dca483bd092673fe690405be23c11fee1b9b9a14a01487cf87d04a264a3668b910ac5f11f19118073f080_1920.jpg);
 	background-size: cover;
 	background-position: center;
@@ -130,7 +130,7 @@ h4{
 .about{
 	/* width: 100%; */
 	height: 100vh;
-	width: 100vw;
+	width: 105vw;
 	padding: 100px 0px;
 	background-color: #191919;
 }
@@ -346,7 +346,7 @@ footer p:nth-child(2){
 @media (max-width: 576px) {
 	.hero{
 		max-width: 540px;
-		width: 115vw;
+		width: 120vw;
 	}
 	.ourService{
 		grid-template-columns: 1fr;
@@ -375,18 +375,18 @@ footer p:nth-child(2){
 	}
 	.about{
 		height: 141vh;
-    	width: 115vw;
+    	width: 120vw;
 		padding: 3px 0px;
 	}
 	.service{
-		width: 115vw;
+		width: 120vw;
 		padding: 1px 0px;
 	}
 	.contact-me{
-		width: 115vw;
+		width: 120vw;
 	}
 	footer{
-		width: 115vw;
+		width: 120vw;
 	}
 	.about-text h2{
 		padding-top: 40px;
