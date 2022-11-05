@@ -95,7 +95,7 @@ html {
 .hero{
 	height: 100vh;
 	width: 105vw;
-	background-image: url(https://pixabay.com/get/gd6b94d15b10387ce815b4b82dc407800522f1be76a94fdc37cd1f6a62b4e792b53452858668a9ce6b56a1c79e3d9f8f5fe7c42c54ea97b73aa3a63468f619dec_1920.jpg);
+	background-image: url(./background.jpg);
 	background-size: cover;
 	background-position: center;
 }
