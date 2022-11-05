@@ -95,7 +95,7 @@ html {
 .hero{
 	height: 100vh;
 	width: 105vw;
-	background-image: url(https://github.com/Shivam-kumar17/Portfolio/blob/main/background.jpg);
+	background-image: url(../background.jpg);
 	background-size: cover;
 	background-position: center;
 }
