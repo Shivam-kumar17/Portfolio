@@ -480,7 +480,7 @@ ul {
 
 	.navbar .menu {
 		position: fixed;
-		height: 100vh;
+		height: 130vh;
 		width: 100%;
 		left: -100%;
 		top: -16px;
@@ -499,7 +499,9 @@ ul {
 		top: -16px;
 	}
 
-
+	nav ul li{
+		padding: 30px 50px;
+	}
 
 
 	.hero{
