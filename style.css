@@ -50,7 +50,7 @@ html {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: -30px;
     transition: color 0.3s ease;
 }
 
@@ -134,7 +134,7 @@ span{
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px  25px;
+	padding: 10px  50px;
 }
 nav ul li a{
 	color: white;
@@ -474,20 +474,29 @@ ul {
         content: "\f00d";
     }
 
+	nav{
+		padding-left: 78px;
+	}
+
 	.navbar .menu {
 		position: fixed;
 		height: 100vh;
 		width: 100%;
 		left: -100%;
-		top: 0;
+		top: -16px;
 		background: #111;
 		text-align: center;
 		padding-top: 80px;
 		transition: all 0.3s ease;
 	}
 
+	.navbar .menu li {
+		display: block;
+	}
+
 	.navbar .menu.active {
 		left: 0;
+		top: -16px;
 	}
 
 
@@ -577,9 +586,10 @@ ul {
 	.about img {
 		width: 450px;
 	}
-	.menu-btn i {
-		margin-left: -50px;
+	.menu-btn i {                            /* btn */
+		margin-left: -230px;
 	}
+
 	::-webkit-scrollbar {
 
         width: 10px;
