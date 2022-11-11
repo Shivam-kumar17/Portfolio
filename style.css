@@ -59,7 +59,7 @@ html {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: crimson;
 }
 
 .scroll-up-btn {
@@ -89,7 +89,8 @@ html {
 }
 
 .scroll-up-btn:hover {
-    filter: brightness(90%);
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
 }
 
 .hero{
@@ -470,6 +471,10 @@ ul {
         z-index: 990;
     }
 
+	.menu-btn i {
+		margin-left: -530px;
+	}
+
     .menu-btn i.active:before {
         content: "\f00d";
     }
@@ -480,7 +485,7 @@ ul {
 
 	.navbar .menu {
 		position: fixed;
-		height: 130vh;
+		height: 160vh;
 		width: 100%;
 		left: -100%;
 		top: -16px;
@@ -492,6 +497,10 @@ ul {
 
 	.navbar .menu li {
 		display: block;
+	}
+
+	.navbar .menu li a{
+		font-size: 30px;
 	}
 
 	.navbar .menu.active {
@@ -588,7 +597,7 @@ ul {
 	.about img {
 		width: 450px;
 	}
-	.menu-btn i {                            /* btn */
+	.menu-btn i {
 		margin-left: -230px;
 	}
 
