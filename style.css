@@ -1,3 +1,4 @@
+/* ************************ CSS ************************ */
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
@@ -95,8 +96,8 @@ html {
 
 .hero{
 	height: 100vh;
-	width: 105vw;
-	background-image: url('./background.jpg');
+	width: 100vw;
+	background-image: url('background.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -219,7 +220,7 @@ h4{
 .about{
 	/* width: 100%; */
 	height: 100vh;
-	width: 105vw;
+	width: 100vw;
 	padding: 100px 0px;
 	background-color: #191919;
 }
@@ -276,7 +277,7 @@ button:hover{
 
 .service{
 	background: #101010;
-	width: 106%;
+	width: 100vw;
 	padding: 100px 0px;
 }
 .title h2{
@@ -338,7 +339,7 @@ h5{
 	cursor: pointer;
 }
 .contact-me{
-	width: 106%;
+	width: 100vw;
 	height: 290px;
 	background: #191919;
 	display: flex;
@@ -369,7 +370,7 @@ h5{
 }
 footer{
 	position: relative;
-	width: 106%;
+	width: 100vw;
 	height: 400px;
 	background: #101010;
 	display: flex;
@@ -560,7 +561,7 @@ ul {
 		flex-direction: column;
 	}
 	.contact-me p{
-		padding-left: 63px;
+		padding-left: 103px;
 	}
 	footer p:nth-child(2){
 		width: 320px;
